@@ -1,4 +1,4 @@
-<p style="text-align:center;" align="center"><a href="https://docs.meshplay.io/guides/smi-conformance#running-smi-conformance-tests-in-cicd-pipelines"><img align="center" style="margin-bottom:20px;" src="./.github/readme/images/SMI%20Conformance%20with%20Meshplay.jpeg" /></a><br /><br /></p>
+<p style="text-align:center;" align="center"><a href="https://docs.meshplay.khulnasoft.com/guides/smi-conformance#running-smi-conformance-tests-in-cicd-pipelines"><img align="center" style="margin-bottom:20px;" src="./.github/readme/images/SMI%20Conformance%20with%20Meshplay.jpeg" /></a><br /><br /></p>
 
 <p align="center">
 <a href="https://github.com/khulnasoft/meshplay-smi-conformance-action/releases">
@@ -15,16 +15,16 @@
 
 # Meshplay - SMI Conformance GitHub Action
 
-GitHub Action to run [SMI Conformance](https://docs.meshplay.io/functionality/service-mesh-interface) tests on CI/CD pipelines.
+GitHub Action to run [SMI Conformance](https://docs.meshplay.khulnasoft.com/functionality/service-mesh-interface) tests on CI/CD pipelines.
 
 Meshplay is SMI's official tool for validating conformance. Learn more at [smi-spec.io](https://smi-spec.io/blog/validating-smi-conformance-with-meshplay/).
 
 ## Learn More
 
-- [Meshplay and Service Mesh Interface](https://docs.meshplay.io/functionality/service-mesh-interface)
-- [Guide: Running SMI Conformance Tests](https://docs.meshplay.io/guides/smi-conformance)
+- [Meshplay and Service Mesh Interface](https://docs.meshplay.khulnasoft.com/functionality/service-mesh-interface)
+- [Guide: Running SMI Conformance Tests](https://docs.meshplay.khulnasoft.com/guides/smi-conformance)
 - [Conformance Test Details](https://khulnasoft.com/projects/service-mesh-interface-conformance)
-- [SMI Conformance Dashboard](https://meshplay.io/service-mesh-interface) (stand-alone)
+- [SMI Conformance Dashboard](https://meshplay.khulnasoft.com/service-mesh-interface) (stand-alone)
 - [SMI Conformance Dashboard](https://khulnasoft.com/service-mesh-landscape#smi) (service mesh landscape)
 - [Design Specification](https://docs.google.com/document/d/1HL8Sk7NSLLj-9PRqoHYVIGyU6fZxUQFotrxbmfFtjwc/edit#)
 
@@ -48,37 +48,37 @@ Meshplay supports 10 different service meshes.
         </tr>
         <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-istio">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/istio.svg' alt='Meshplay Adapter for Istio Service Mesh' align="middle" hspace="10px" vspace="5px" height="30px" > Meshplay adapter for Istio</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/istio.svg' alt='Meshplay Adapter for Istio Service Mesh' align="middle" hspace="10px" vspace="5px" height="30px" > Meshplay adapter for Istio</a>
           </td>
         </tr>
         <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-linkerd">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/linkerd.svg' alt='Linkerd' align="middle" hspace="5px" vspace="5px" height="30px" width="30px"> Meshplay adapter for Linkerd</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/linkerd.svg' alt='Linkerd' align="middle" hspace="5px" vspace="5px" height="30px" width="30px"> Meshplay adapter for Linkerd</a>
           </td>
         </tr>
         <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-consul">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/consul.svg' alt='Consul Connect' align="middle" hspace="5px" vspace="5px" height="30px" width="30px"> Meshplay adapter for Consul</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/consul.svg' alt='Consul Connect' align="middle" hspace="5px" vspace="5px" height="30px" width="30px"> Meshplay adapter for Consul</a>
           </td>
         </tr>
         <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-octarine">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/octarine.svg' alt='Octarine Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Octarine</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/octarine.svg' alt='Octarine Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Octarine</a>
           </td>
         </tr>
         <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-nsm">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/nsm.svg' alt='Network Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Network Service Mesh</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/nsm.svg' alt='Network Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Network Service Mesh</a>
           </td>
         </tr>
          <tr>
            <td><a href="https://github.com/khulnasoft/meshplay-kuma">
-             <img src='https://docs.meshplay.io/assets/img/service-meshes/kuma.svg' alt='Kuma Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Kuma</a>
+             <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/kuma.svg' alt='Kuma Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Kuma</a>
            </td>
         </tr>
           <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-osm">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/osm.svg' alt='Open Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Open Service Mesh</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/osm.svg' alt='Open Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Open Service Mesh</a>
           </td>
         </tr>
         <tr><td colspan="2" class="stable-adapters"></td></tr>
@@ -87,17 +87,17 @@ Meshplay supports 10 different service meshes.
         </tr>
          <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-cpx">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/citrix.svg' alt='Citrix CPX Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Citrix CPX</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/citrix.svg' alt='Citrix CPX Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Citrix CPX</a>
           </td>
         </tr>
         <tr>
           <td><a href="https://github.com/khulnasoft/meshplay-traefik-mesh">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/traefik-mesh.svg' alt='Traefik Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Traefik Mesh</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/traefik-mesh.svg' alt='Traefik Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Traefik Mesh</a>
           </td>
         </tr>
            <tr>
           <td><a href="https://github.com/meshplay/meshplay-nginx-sm">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/nginx-sm.svg' alt='NGINX Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for NGINX Service Mesh</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/nginx-sm.svg' alt='NGINX Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for NGINX Service Mesh</a>
           </td>
         </tr>
         <tr><td colspan="2" class="beta-adapters"></td></tr>
@@ -106,12 +106,12 @@ Meshplay supports 10 different service meshes.
         </tr>
         <tr>
           <td><a href="https://github.com/meshplay/meshplay-tanzu-sm">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/tanzu.svg' alt='Tanzu Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Tanzu SM</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/tanzu.svg' alt='Tanzu Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for Tanzu SM</a>
           </td>
         </tr>
         <tr>
           <td><a href="https://github.com/meshplay/meshplay-app-mesh">
-            <img src='https://docs.meshplay.io/assets/img/service-meshes/app-mesh.svg' alt='AWS App Mesh Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for App Mesh</a>
+            <img src='https://docs.meshplay.khulnasoft.com/assets/img/service-meshes/app-mesh.svg' alt='AWS App Mesh Service Mesh' align="middle" hspace="5px" vspace="5px" height="30px" width="30px">Meshplay adapter for App Mesh</a>
           </td>
         </tr>
         <tr><td colspan="2" class="alpha-adapters"></td></tr>
@@ -129,7 +129,7 @@ By default, this action brings its own Kubernetes cluster(minikube), deploys the
 
 You can however bring your own clusters with a specific version of a service mesh installed and Meshplay would automatically detect your environment and run the conformance test accordingly (see [Running on specific version](#running-on-specific-version)).
 
-See [Running SMI Conformance Tests in CI/CD Pipelines](https://docs.meshplay.io/guides/smi-conformance#running-smi-conformance-tests-in-cicd-pipelines) for detailed instructions on setting up Meshplay and authenticating the GitHub action.
+See [Running SMI Conformance Tests in CI/CD Pipelines](https://docs.meshplay.khulnasoft.com/guides/smi-conformance#running-smi-conformance-tests-in-cicd-pipelines) for detailed instructions on setting up Meshplay and authenticating the GitHub action.
 
 ### Sample Configurations
 
@@ -202,9 +202,9 @@ jobs:
 
 ## Reporting Conformance
 
-Service mesh projects can report their SMI Conformance results automatically and update it on the [SMI Conformance Dashboard](https://meshplay.io/service-mesh-interface).
+Service mesh projects can report their SMI Conformance results automatically and update it on the [SMI Conformance Dashboard](https://meshplay.khulnasoft.com/service-mesh-interface).
 
-See [Reporting Conformance](https://docs.meshplay.io/functionality/service-mesh-interface#reporting-conformance) for details on how to setup reporting.
+See [Reporting Conformance](https://docs.meshplay.khulnasoft.com/functionality/service-mesh-interface#reporting-conformance) for details on how to setup reporting.
 
 ## Join the Community!
 
@@ -224,7 +224,7 @@ Find out more on the <a href="https://khulnasoft.com/community">Khulnasoft commu
 
 <div>&nbsp;</div>
 
-<a href="https://slack.meshplay.io">
+<a href="https://slack.meshplay.khulnasoft.com">
 
 <picture align="right">
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme/images//slack-dark-128.png"  width="110px" align="right" style="margin-left:10px;margin-top:10px;">
@@ -233,7 +233,7 @@ Find out more on the <a href="https://khulnasoft.com/community">Khulnasoft commu
 </picture>
 </a>
 
-<a href="https://meshplay.io/community"><img alt="Khulnasoft Cloud Native Community" src=".github/readme/images//community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
+<a href="https://meshplay.khulnasoft.com/community"><img alt="Khulnasoft Cloud Native Community" src=".github/readme/images//community.svg" style="margin-right:8px;padding-top:5px;" width="140px" align="left" /></a>
 
 <p>
 ✔️ <em><strong>Join</strong></em> any or all of the weekly meetings on <a href="https://calendar.google.com/calendar/b/1?cid=bGF5ZXI1LmlvX2VoMmFhOWRwZjFnNDBlbHZvYzc2MmpucGhzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20">community calendar</a>.<br />

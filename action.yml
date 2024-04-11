@@ -3,7 +3,7 @@ description: "Validate SMI specifications using Meshplay"
 author: "Khulnasoft"
 inputs:
   # token to authenticate with Meshplay
-  # see: https://docs.meshplay.io/guides/smi-conformance#running-smi-conformance-tests-in-cicd-pipelines
+  # see: https://docs.meshplay.khulnasoft.com/guides/smi-conformance#running-smi-conformance-tests-in-cicd-pipelines
   provider_token:
     description: "Provider token to use. NOTE: value of the 'token' key in auth.json."
     required: true
