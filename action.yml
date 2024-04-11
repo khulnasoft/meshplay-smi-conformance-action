@@ -1,0 +1,27 @@
+name: "Service Mesh Interface Conformance with Meshplay"
+description: "Validate SMI specifications using Meshplay"
+author: "Khulnasoft"
+inputs:
+  # token to authenticate with Meshplay
+  # see: https://docs.meshplay.io/guides/smi-conformance#running-smi-conformance-tests-in-cicd-pipelines
+  provider_token:
+    description: "Provider token to use. NOTE: value of the 'token' key in auth.json."
+    required: true
+
+  # name of the service mesh to deploy. Must be compliant with the Service Mesh Performance specification.
+  # https://github.com/service-mesh-performance/service-mesh-performance/blob/1de8c93d8cba4ba8c1120fe09b7bf6ce0aa48c83/protos/service_mesh.proto#L15-L28
+  service_mesh:
+    description: "Service Mesh to use."
+    required: true
+
+  # set to true if you are bringing your own cluster with a service mesh installed
+  mesh_deployed:
+    description: "Set to true for custom service mesh deployments other than the latest release."
+    required: true
+
+runs:
+  using: "node12"
+  main: "main.js"
+branding:
+  icon: 'check-circle'
+  color: 'green'
